@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgba(233, 198, 227, 0.925);
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 242);
+    color: rgba(255, 255, 255, 0.932);
+}
