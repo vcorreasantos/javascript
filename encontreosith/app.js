@@ -1,5 +1,5 @@
 /**
- * Encontre o Jedi
+ * Encontre o Lord Vader
  * @author Vitória Cristina Corrêa dos Santos
  */
 function sortearCarta() {
@@ -27,7 +27,7 @@ function reiniciarJogo() {
     let cartaImg = document.getElementById("carta");
     let resultado = document.getElementById("resultado");
 
-    cartaImg.src = "img/cartaverso.jpeg";
+    cartaImg.src = "img/versodacarta.png";
     resultado.innerText = "A carta ainda está selada pelo Lado Sombrio…";
 
 }
