@@ -5,12 +5,7 @@
 function sortearCarta() {
 
     // Lista de imagens
-    let cartas = [
-        "img/vader.png",
-        "img/stormtrooper.png",
-        "img/sabre.png",
-        "img/estrelaDaMorte.png"
-    ];
+    let cartas = ["img/vader.png", "img/startrupper.png", "img/sabre.png", "img/estreladamorte.png"];
 
     // Sorteia 1 carta
     let indice = Math.floor(Math.random() * cartas.length);
@@ -24,9 +19,15 @@ function sortearCarta() {
 
     if (cartaSorteada.includes("vader")) {
         resultado.innerText = "Você encontrou o Darth Vader! A Força está com você.";
-        resultado.style.color = "red";
     } else {
-        resultado.innerText = "Não é o Vader... tente novamente.";
-        resultado.style.color = "gray";
+        resultado.innerText = "Você falhou. Darth Vader está… em outro lugar.";
     }
+}
+function reiniciarJogo() {
+    let cartaImg = document.getElementById("carta");
+    let resultado = document.getElementById("resultado");
+
+    cartaImg.src = "img/cartaverso.jpeg";
+    resultado.innerText = "A carta ainda está selada pelo Lado Sombrio…";
+
 }

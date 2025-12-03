@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #0b0b0d; /* preto sombrio */
+    font-family: sans-serif;
+    color: #b90817; /* vermelho Sith */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 1.6rem;
+    color: #ff0000;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #b30000;
+    align-items: center;
+}
+
+/* ÁREA DA CARTA */
+.carta-area {
+    width: 250px;
+    height: 350px;
+    background-color: #000000; 
+    border: 2px solid #600000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: rgba(255, 0, 0, 0.551) 0px 3px 7px;
+}
+
+/* IMAGEM DA CARTA */
+#carta {
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+}
+
+/* BOTÕES */
+button {
+    padding: 10px 30px;
+    background-color: #8b0000;
+    border: 1px solid #e63946;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: rgba(255, 0, 0, 0.4) 0px 3px 6px;
+}
+
+button:hover {
+    background-color: #b30000;
+    box-shadow: rgba(255, 0, 0, 0.6) 0px 6px 12px;
+}
+
+/* TEXTO DO RESULTADO */
+#resultado {
+    font-size: 1.1rem;
+    color: #ff4d4d;
+    text-shadow: 0px 0px 5px #ff0000;
+}
