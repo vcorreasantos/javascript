@@ -1,0 +1,46 @@
+/* Fundo suave */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    background: #e6b1d0; /* rosa pastel */
+    color: #5a4c56; /* cinza suave */
+    text-align: center;
+}
+
+/* Títulos fofos */
+h1 {
+    font-size: 2.5rem;
+    color: #ff7bac;
+    text-shadow: 2px 2px #ffd6e8;
+}
+
+h3 {
+    color: #a06fd6;
+    font-size: 1.4rem;
+}
+
+/* Imagens */
+img {
+    width: 100px;
+    margin: 10px;
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.15);
+}
+
+/* Formulário */
+form {
+    margin-top: 10px;
+    padding: 20px;
+    background: #fff6ff;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(255, 170, 200, 0.4);
+    display: inline-block;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
